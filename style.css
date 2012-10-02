@@ -1,0 +1,60 @@
+
+body.background{
+	background-color	:#C7B18B;
+}
+
+.container{
+	width		:800px;
+	height		:555px;
+	background-repeat	:	no-repeat;
+	background-image	:	url('images/bgi/bgi.png');
+	position: relative;
+	top: 20px;
+	left: 0px;
+	right: -20 ;
+	bottom: 20px;
+
+}
+
+.pic{
+	width	:494px;
+	height	:494px;
+	float	:left;
+	background-image	:url('images/homepage.jpg');
+	margin-left	:23px;
+	margin-top	:22px;
+	float		:left;
+}
+
+.logo{
+	width	:	174px;
+	height	:	174px;
+	float	:	left;
+	position	: relative;
+	top: 120px;
+	left: 0px;
+	-webkit-transition: all 2s ease-in-out 1s; 
+	-moz-transition: all 2s ease-in-out 1s; 
+	-op-transition: all 1s ease-in-out 1s;
+}
+.logo:hover{
+	position: relative;
+	top: 120px;
+	left: -130px;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-op-transition: all 1s ease-in-out;
+}
+.menu{
+	position: relative;
+	left:27px;
+	top:135px;
+	z-index: 0;
+}
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+}
+.menu li{
+	color: black;
+}
