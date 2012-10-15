@@ -1,60 +1,52 @@
-
-body.background{
+body{
 	background-color	:#C7B18B;
 }
 
-.container{
-	width		:800px;
+.kadr{
+	background-image	: url('images/border.jpg');
+	background-repeat	:no-repeat;
+	width		:830px;
 	height		:555px;
-	background-repeat	:	no-repeat;
-	background-image	:	url('images/bgi/bgi.png');
-	position: relative;
-	top: 20px;
-	left: 0px;
-	right: -20 ;
-	bottom: 20px;
-
+	margin-top	:120px;
+	margin-right:50px;
+	position	:absolute;
 }
 
-.pic{
-	width	:494px;
-	height	:494px;
-	float	:left;
-	background-image	:url('images/homepage.jpg');
-	margin-left	:23px;
-	margin-top	:22px;
-	float		:left;
+.menu{
+	width	:142px;
+	height	:148px;
+	float	:right;
+	margin-top		:200px;;
+	margin-right	:120px;
+	background-color:gray;
 }
 
 .logo{
-	width	:	174px;
-	height	:	174px;
-	float	:	left;
-	position	: relative;
-	top: 120px;
-	left: 0px;
-	-webkit-transition: all 2s ease-in-out 1s; 
-	-moz-transition: all 2s ease-in-out 1s; 
-	-op-transition: all 1s ease-in-out 1s;
+	width		:174px;
+	height		:174px;
+	top			:120px;
+	left		:0px;
+	float		:right;
+	position	:relative;
+	margin-right:100px;
+	margin-top	:-440px;
+	-webkit-transition	: all 2s ease-in-out 2s;
+	-moz-transition		: all 2s ease-in-out 2s;
 }
+
 .logo:hover{
-	position: relative;
-	top: 120px;
-	left: -130px;
-	-webkit-transition: all 1s ease-in-out;
-	-moz-transition: all 1s ease-in-out;
-	-op-transition: all 1s ease-in-out;
+	position	: relative;
+	top			: 120px;
+	left		:-130px;
+	-webkit-transition	: all 1s ease-in-out;
+	-moz-transition		: all 1s ease-in-out;
 }
-.menu{
-	position: relative;
-	left:27px;
-	top:135px;
-	z-index: 0;
+
+.pichp{
+	height		:494px;
+	margin-left	:12px;
+	margin-top	:13px;
+	background-image	:url('images/homepage.jpg');
+	background-repeat	:no-repeat;
 }
-.menu ul {
-	list-style-type: none;
-	padding: 0;
-}
-.menu li{
-	color: black;
-}
+
