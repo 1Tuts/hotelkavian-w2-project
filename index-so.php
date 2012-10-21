@@ -1,3 +1,7 @@
+	/*
+		Template Name: reviews
+	*/
+
 <?php 
 	get_template_part('header'); 
 	get_template_part('menu');

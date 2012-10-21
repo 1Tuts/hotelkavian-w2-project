@@ -1,3 +1,7 @@
+	/*
+		Template Name: services
+	*/
+
 <?php 
 	get_template_part('header'); 
 	get_template_part('menu');
