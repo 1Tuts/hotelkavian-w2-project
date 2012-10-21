@@ -1,3 +1,11 @@
+/*
+Theme Name: Kavian hotel
+Theme URI: http://kavianhotel.com
+Author: soheil sadabadi and sadegh hosseini kheibary
+Author URI: Soheildesign.ir
+Description: Wordpress Theme for kavian hotel
+Version: 0.1 beta
+*/
 body{
 	background-color	:#C7B18B;
 }
@@ -17,16 +25,28 @@ body{
 	height	:148px;
 	float	:right;
 	margin-top		:200px;;
-	margin-right	:90px;
-	background-color:gray;
+	margin-right	:120px;
 }
-.menu menu{
-	float: right;
-	line-height: 38px;
 
+.menu menu{
+	list-style-type	:none;
 }
+
+.menu li{
+	
+	border-bottom	:1px dashed #5B423B;
+}
+
 .menu a{
-	text-decoration: none;
+	color		:#4F4138;
+	font-size	:18px;
+	font-family	:cambria;
+	text-decoration : none;
+	padding-bottom	:5px;
+}
+
+.menu a:hover{
+	color	:#2F1312;
 }
 
 .logo{
@@ -36,25 +56,166 @@ body{
 	left		:0px;
 	float		:right;
 	position	:relative;
-	margin-right:143px;
+	margin-right:100px;
 	margin-top	:-440px;
 	-webkit-transition	: all 2s ease-in-out 2s;
 	-moz-transition		: all 2s ease-in-out 2s;
+	-o-transition		: all 1s ease-in-out 2s;
 }
 
 .logo:hover{
 	position	: relative;
 	top			: 120px;
-	left		:-130px;
+	left		:-180px;
 	-webkit-transition	: all 1s ease-in-out;
 	-moz-transition		: all 1s ease-in-out;
+	-op-transition		: all 1s ease-in-out;
 }
 
 .pichp{
 	height		:494px;
 	margin-left	:12px;
-	margin-top	:13px;
+	margin-top	:12px;
 	background-image	:url('images/homepage.jpg');
 	background-repeat	:no-repeat;
 }
 
+.about-us ,
+.contact ,
+.reservation ,
+.room-types ,
+.services ,
+.reviews{
+	height		:500px;
+	margin-left	:12px;
+	margin-top	:12px;
+}
+
+.top{
+	width	:500px;
+	height	:247px;
+	margin-right	:auto;
+}
+
+.bottom{
+	width	:500px;
+	height	:247px;
+	float	:left;
+}
+
+.about-us .rpic{
+	background-color	:#2C1E16;
+	background-image	:url('images/rpic-au.jpg');
+}
+
+.contact .rpic{
+	background-color	:#24201D;
+	background-image	:url('images/rpic-con.jpg');
+}
+
+.reservation .rpic{
+	background-color	:#2F1312;
+	background-image	:url('images/rpic-rez.jpg');
+}
+
+.room-types .rpic{
+	background-color	:#2B3E44;
+	background-image	:url('images/rpic-rt.jpg');
+}
+
+.services .rpic{
+	background-color	:#211231;
+	background-image	:url('images/rpic-ser.jpg');
+}
+
+.reviews .rpic{
+	background-color	:#40452F;
+	background-image	:url('images/rpic-so.jpg');
+}
+
+.about-us .lpic{
+	background-image	:url('images/lpic-au.jpg');
+}
+
+.contact .lpic{
+	background-image	:url('images/lpic-con.jpg');
+}
+
+.reservation .lpic{
+	background-image	:url('images/lpic-rez.jpg');
+}
+
+.room-types .lpic{
+	background-image	:url('images/lpic-rt.jpg');
+}
+
+.services .lpic{
+	background-image	:url('images/lpic-ser.jpg');
+}
+
+.reviews .lpic{
+	background-image	:url('images/lpic-so.jpg');
+}
+
+.about-us .bottom{
+	background-color	:#4F4138;
+}
+
+.contact .bottom{
+	background-color	:#4C413F;
+}
+
+.reservation .bottom{
+	background-color	:#5B423B;
+}
+
+.room-types .bottom{
+	background-color	:#616362;
+}
+
+.services .bottom{
+	background-color	:#4A4252;
+}
+
+.reviews .bottom{
+	background-color	:#6F765E;
+}
+
+.rpic{
+	width	:252px;
+	height	:247px;
+	float	:right;
+	background-repeat	:no-repeat;
+	background-position	:center center;
+}
+
+.lpic{
+	width	:248px;
+	height	:247px;
+	margin-right		:auto;
+	background-repeat	:no-repeat;
+	background-position	:center center;
+	
+}
+
+.list{
+	height	:170px;
+	margin	:38px 125px 38px 40px;
+}
+
+.list h3{
+	color		:white;
+	font-size	:25px;
+	font-family	:"Algerian", "Times New Roman (Headings CS)";
+}
+
+.p{
+	height	:170px;
+	margin	:38px 125px 38px 40px;
+}
+
+.p h3{
+	color		:white;
+	font-size	:25px;
+	font-family	:"Algerian", "Times New Roman (Headings CS)";
+}
